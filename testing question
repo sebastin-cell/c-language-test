@@ -1,0 +1,84 @@
+// test my skilss
+#include<stdio.h>
+void mathamatic()
+void gentral()
+int main()
+{
+  int choise;
+  printf("\t\t==================================\n");
+  printf("\t\t\t\xb2\xb2\xb2 MAINT TEST \xb2\xb2\xb2\n");
+  printf("\t\t==================================\n");
+  printf("welcome to the mind test ques");
+  system("color 3");
+  printf("choise your sections\n");
+  //system("color 5");
+  printf("1.mathamatic\n2.gentral\n");
+  scanf("%d",&choise);
+  printf("the value is %d",choise);
+
+  if(choise==1)
+  {
+    mathamatics();
+  }
+  if(choise==2)
+  {
+    gentral();
+  }
+  else
+  {
+    printf("select the correct one");
+  }
+}
+void mathamatic()
+  {
+    char ans[10];
+printf("1. What is the sum of 130+125+191?");
+printf("\nA.335\nB. 456\nC. 446\nD. 426");
+scanf("%c",&ans);
+    if (ans==C)
+    {
+        sytem("color 3");
+        printf("anser is corret");
+    }
+    else
+    {
+        system("color 7");
+        printf("the answer is A");
+    }
+printf("2: If we minus 712 from 1500, how much do we get?");
+printf("\nA. 788\nB. 778\nC. 768\nD. 758");
+  {
+    scanf("%c",&ans);
+    if (ans==A)
+    {
+        sytem("color 3");
+        printf("anser is corret");
+    }
+    else
+    {
+        system("color 7");
+        printf("the answer is A");
+    }
+  }
+}
+void gentral()
+{
+    char ans[10];
+printf("What is the orange part of an egg called?");
+scanf("%c",&ans);
+    {
+        if(ans==egg)
+        {
+            system("color5");
+            printf("the ans is correct");
+        }
+        else
+        {
+            system("color4");
+            printf("the ans is wrong");
+        }
+    }
+
+}
+  
+  
